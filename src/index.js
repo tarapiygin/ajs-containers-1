@@ -1,1 +1,1 @@
-import './js/orderedFunction';
+import './js/team';

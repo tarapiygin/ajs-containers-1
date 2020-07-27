@@ -1,12 +1,11 @@
 import Team from '../team';
 import Character from '../character';
 
-
 test('should return a list of one character', () => {
   const character = new Character();
   const team = new Team();
   team.add(character);
-  const result = [character,];
+  const result = [character];
   expect(team.toArray()).toEqual(result);
 });
 
